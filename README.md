@@ -8,4 +8,4 @@ TBD
 
 # License
 
-GPLv2.1 or later
+LGPLv2.1 or later
