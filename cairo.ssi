@@ -329,13 +329,19 @@ namespace: vyzo/cairo
   CAIRO_FORMAT_A1
   CAIRO_FORMAT_RGB16_565
   XOpenDisplay
+  XCloseDisplay
   DefaultScreen
   DefaultRootWindow
   XCreateSimpleWindow
   XMapWindow
+  XSelectInput
+  XFlush
   DefaultVisual
   window->drawable
   cairo-create-x11-surface
+  cairo-destroy-x11-surface
+  cairo-x11-pump-events
+  cairo-x11-display-pump-events
   cairo-xlib-surface-create
   cairo-xlib-surface-create-for-bitmap
   cairo-xlib-surface-set-size

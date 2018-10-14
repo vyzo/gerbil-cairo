@@ -327,13 +327,21 @@
             CAIRO_FORMAT_A1
             CAIRO_FORMAT_RGB16_565
             XOpenDisplay
+            XCloseDisplay
             DefaultScreen
             DefaultRootWindow
             XCreateSimpleWindow
             XMapWindow
             DefaultVisual
             window->drawable
+            XSelectInput
+            XFlush
+            ButtonPressMask
+            KeyPressMask
             cairo-create-x11-surface
+            cairo-destroy-x11-surface
+            cairo-x11-pump-events
+            cairo-x11-display-pump-events
             cairo-xlib-surface-create
             cairo-xlib-surface-create-for-bitmap
             cairo-xlib-surface-set-size
