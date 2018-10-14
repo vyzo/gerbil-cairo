@@ -1,5 +1,6 @@
 ;;; -*- Gerbil -*-
 ;;; © vyzo
+package: vyzo
 namespace: vyzo/cairo
 
 (export #t)
